@@ -1,0 +1,12 @@
+[Desktop Entry]
+Encoding=UTF-8
+Name=Fornix
+Comment=Fornix P2P Cryptocurrency
+Comment[fr]=Fornix, monnaie virtuelle cryptographique pair à pair
+Comment[tr]=Fornix, eşten eşe kriptografik sanal para birimi
+Exec=fornix-qt %u
+Terminal=false
+Type=Application
+Icon=fornix128
+MimeType=x-scheme-handler/fornix;
+Categories=Office;Finance;

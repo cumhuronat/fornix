@@ -1,0 +1,26 @@
+# /etc/conf.d/fornixd: config file for /etc/init.d/fornixd
+
+# Config file location
+#BITCOIND_CONFIGFILE="/etc/fornix/fornix.conf"
+
+# What directory to write pidfile to?  (created and owned by $BITCOIND_USER)
+#BITCOIND_PIDDIR="/var/run/fornixd"
+
+# What filename to give the pidfile
+#BITCOIND_PIDFILE="${BITCOIND_PIDDIR}/fornixd.pid"
+
+# Where to write fornixd data (be mindful that the blockchain is large)
+#BITCOIND_DATADIR="/var/lib/fornixd"
+
+# User and group to own fornixd process
+#BITCOIND_USER="fornix"
+#BITCOIND_GROUP="fornix"
+
+# Path to fornixd executable
+#BITCOIND_BIN="/usr/bin/fornixd"
+
+# Nice value to run fornixd under
+#BITCOIND_NICE=0
+
+# Additional options (avoid -conf and -datadir, use flags above)
+BITCOIND_OPTS=""
